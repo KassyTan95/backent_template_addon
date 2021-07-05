@@ -1,0 +1,19 @@
+{
+    "name": "kassytan/backent_template_addon",
+    "description": "plugs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kassy",
+            "email": "kassyt@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=7.0"
+    },
+    "autoload": {
+        "psr-4": {"kassytan\\": "src"}
+    }
+}
